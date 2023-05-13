@@ -1,0 +1,50 @@
+/* .home{
+    margin-top: 20px;
+} */
+.homeSlide h1{
+    font-size: 45px;
+  
+}
+.homeSlide p{
+ position: absolute;       
+ bottom: 20px;
+}
+.homeSlide ul li{
+    border: 2px solid #b8b7b7;
+    border-radius: 50%;
+    padding: 10px;
+}
+.homeSlide ul li button{
+    background: transparent !important;
+    color: transparent !important;
+
+}
+.homeSlide ul li button::before{
+    font-size: 15px;
+    color: darkslategray;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+    
+}
+.homeSlide .box{
+    display: flex !important;
+}
+.homeSlide .box .left{
+    width: 70% !important;
+    /* margin: 0 !important; */
+}
+.homeSlide .box .right{
+    width: 30% !important;
+}
+.homeSlide .box img{
+    width: 80%;
+    height: 80%;
+}
+/* .homeSlide .contentWidth{
+    width: 80%;
+    margin: 0;
+    color: teal;
+    background-color: yellow;
+} */

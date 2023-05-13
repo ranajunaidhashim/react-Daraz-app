@@ -1,0 +1,26 @@
+.details{
+    display: flex;
+    /* flex: 1; */
+
+    flex-direction: row;
+}
+.imgd{
+    margin: 50px;
+    width:500px ;
+    height: 600px;
+}
+.pdbtb{
+    background-color: crimson;
+    color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 5px;
+transition: 200ms ease-in-out;
+}
+.pdbtb:hover{
+background-color: rgb(190, 4, 42);
+}
+
+.pdright h1{
+
+}
